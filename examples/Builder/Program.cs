@@ -9,7 +9,7 @@ namespace Builder
     {
         static void Main(string[] args)
         {
-            new WebviewBuilder(new Uri("http://google.com"))
+            new WebviewBuilder(new Uri("https://www.google.com"))
                 .WithSize(new Size(1024, 768))
                 .Debug()
                 .Build()
